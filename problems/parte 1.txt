@@ -1,0 +1,40 @@
+public class MyClass {
+    public static void main(String args[]) {
+    //
+    String a = "lumon";
+    String b = "daToS";
+    String c = "DaToS";
+    String d = "Analitica";
+    String e = "anAliTicA";
+    
+    capitalizar(a);
+    capitalizar(b);
+    capitalizar(c);
+    capitalizar(d);
+    capitalizar(e);
+    
+    verificar(a);
+    
+    }
+    
+    public static String capitalizar(String st){
+           
+        String result = st.substring(0,1).toUpperCase()+st.substring(1);
+        System.out.println(result);
+        return result;
+    }
+    
+    public static String verificar(String st){
+        
+        return "void";
+    }
+    
+}
+
+//if = h -> null h o
+//if = o -> o l
+//if = l -> l a
+//if = a -> a
+
+
+
